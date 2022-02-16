@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Cinzel:wght@700&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;500&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    outline: none;
+    /* text-decoration: none; */
+    list-style-type: none;
+}
+#myvideo{
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    /* width:100vw;
+    height:10vh; */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+.section-1 video{
+    position: fixed;
+}
+.section-2{
+    position: relative;
+    top:37rem;
+    padding: 0;
+    margin: 0;
+    color:aliceblue;
+    background-color: rgba(2, 22, 16, 0.737);
+    border: 2px solid white;
+    width: 100%;
+    height: 150vh;
+
+}
+.section-2 h2{
+    font-family: 'Baloo Chettan 2', cursive;
+    display: block;
+    width: 100%;
+    margin: auto;
+    background-color:rgba(116, 228, 190, 0.356);
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    text-align:center;
+    font-size: x-large;
+    letter-spacing: 2px;
+    
+}
+.section-2 h1{
+    font-family: 'Roboto Slab', serif;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    text-align:center;
+    font-size: xx-large;
+    letter-spacing: 2px;
+}
+
+#lets{
+    animation: title 2s 1s infinite;
+}
+@keyframes title {
+    0%{
+        color:white
+    }
+    30%{
+        color:rgba(233, 196, 128, 0.973);
+    }
+    50%{
+        color:sandybrown;
+    }
+    100%{
+        color: beige;
+        /* color:rgb(223, 151, 110); */
+        /* sandybrown; */
+    }
+}
+
+.featuring{
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    overflow: visible ;
+    height:400px;
+    width:1200px;
+}
+@-webkit-keyframes slide_animation{
+
+     0%{right:0px;}
+     4%{right:400px;}
+     8%{right:400px;} 
+    12%{right:800px;}
+    16%{right:800px;}
+    20%{right:1200px;}
+    24%{right: 1200px;}
+    28%{right:1600px;}
+    32%{right:1600px;}
+    36%{right:2000px;}
+    40%{right:2000px;}
+    44%{right:2400px;}
+    48%{right:2400px;}
+    52%{right:2000px;}
+    64%{right:2000px;}
+    66%{right:1600px;}
+    68%{right:1600px;}
+    72%{right: 1200px;}
+    76%{right: 1200px;}
+    80%{right:800px;}
+    84%{right:800px;}
+    88%{right:400px;} 
+    92%{right:400px;}
+    94%{right:0px}
+    100%{right:0px;}
+
+    
+
+
+     
+}
+.featured{
+    position: relative;
+    width: 2834px;
+    height: 400px;
+    margin: 0 1600px 0 0 ;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 62s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+
+}
+.fea{
+    display: inline-block;
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 400px;
+    background-color:beige ;
+    border-radius: 10px;
+    color: black;
+    margin:2px;
+    padding: 4px;
+    text-align: justify;
+    font-size: large;
+    
+}
+.featured img{
+    display: block;
+    width: 10rem;
+    margin: auto;
+
+}
+.featured p{
+    font-size:large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 3px;
+}
+#memo img{
+  width: 15rem;
+}
+#intel img{
+    width: 15rem;
+}
