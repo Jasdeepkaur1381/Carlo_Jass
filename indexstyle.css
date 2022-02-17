@@ -94,9 +94,10 @@
     
 }
 #box1 div{
-    display:flex;
+    display:inline-block;
 /*    justify-content: space-evenly; */
-    width:30rem;
+    float:left;
+    width:5rem;
     left: 2rem;
     margin:auto;
     flex-shrink:5;
@@ -131,7 +132,7 @@
     padding-left: 25px;
     display: inline;
     float:left;
-    padding-top: 4rem;
+    padding-top: 0rem;
     width: 70%;
 }
 .section-1 p{
