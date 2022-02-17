@@ -95,7 +95,7 @@
 }
 #box1 div{
     display:flex;
-   justify-content: space-evenly;
+/*    justify-content: space-evenly; */
     width:30rem;
     left: 2rem;
     margin:auto;
@@ -104,10 +104,8 @@
 }
 #box1 img{
     display:inline-block;
-    text-align: justify;
-    width: 7rem;
     float:left;
-    margin: auto;
+    width: 6rem;
     cursor: pointer;
     transition:all 0.5s;
     box-shadow: 1rem black;
@@ -133,7 +131,7 @@
     padding-left: 25px;
     display: inline;
     float:left;
-    padding-top: 3rem;
+    padding-top: 4rem;
     width: 70%;
 }
 .section-1 p{
