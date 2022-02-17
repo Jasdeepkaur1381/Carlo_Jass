@@ -103,9 +103,10 @@
     min-height: 100px;
 }
 #box1 img{
-    display: flex;
+    display:inline-block;
     text-align: justify;
-    width: 60%;
+    width: 7rem;
+    float:left;
     margin: auto;
     cursor: pointer;
     transition:all 0.5s;
