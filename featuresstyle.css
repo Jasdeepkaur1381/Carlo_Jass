@@ -12,17 +12,28 @@
     position: fixed;
     min-width: 100%;
     min-height: 100%;
-    /* width:100vw;
-    height:10vh; */
+    width:100vw;
+    height:auto;
     left: 0;
     right: 0;
     bottom: 0;
     top: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
 }
 .section-1 video{
     position: fixed;
+    overflow: hidden;
+    
+}
+.section-1 div{
+   overflow: hidden;
+
 }
 .section-2{
+    /* display:flex; */
     position: relative;
     top:37rem;
     padding: 0;
@@ -30,8 +41,9 @@
     color:aliceblue;
     background-color: rgba(2, 22, 16, 0.737);
     border: 2px solid white;
-    width: 100%;
+    width: 100vw;
     height: 150vh;
+    overflow: hidden;
 
 }
 .section-2 h2{
