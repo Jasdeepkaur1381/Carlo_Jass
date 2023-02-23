@@ -25,6 +25,7 @@
 }
 .section-1 video{
     position: fixed;
+    width:100vw;
     overflow: hidden;
     
 }
